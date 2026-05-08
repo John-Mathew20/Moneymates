@@ -1,0 +1,41 @@
+.f-info {
+  height: 8rem;
+  background-color: #0f172a;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: space-evenly;
+  text-align: center;
+  border-top: 1px solid #1e293b;
+  color: #64748b;
+}
+
+.f-info-links a {
+  text-decoration: none;
+  color: #94a3b8;
+}
+
+.f-info-social,
+.f-info-links,
+.f-info-brand {
+  width: 100%;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.f-info-social i {
+  font-size: 1.75rem;
+  margin-right: 1rem;
+  color: #10b981;
+}
+
+.f-info-links a:hover {
+  text-decoration: underline;
+  color: #10b981;
+}
+
+p {
+  text-align: center;
+}
